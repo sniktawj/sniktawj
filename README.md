@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @sniktawj (Jordan Watkins)
+- I’m interested in learning code for a future in computing.
+- I’m currently learning applied computing at James Madison University
+- I’m looking to collaborate on the best way to learn
+- How to reach me: jwattzz02@gmail.com
