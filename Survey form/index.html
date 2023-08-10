@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Stack Tourneys</title>
+  <link rel="stylesheet" href="styles.css">
+</head>    
+<body>
+  <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">  <i class="fa-solid fa-droplet"></i>Three Stack Tournaments</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Free Tourneys
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/tech.html" class="navbar__links">
+                        Upcoming Pro Tournaments
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> Products</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">
+                        Sign Up!
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+ <h1 id="title">Let us know how we are doing!</h1>  
+     <p id="description">Please fill out this form with the required information</p>
+     <form method="post" id="survey-form">
+        <fieldset>
+        <label for="name-label" id="name-label">Enter Your First and Last Name: <input id="name" name="name" type="text" required placeholder="John Doe"/></label>
+        <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" required placeholder="johndoe@gmail.com"/></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label for="number" id="number-label">Add your age:<input id="number" name="number" type="number" min="13"  max="120" placeholder="18"/></label>
+        <label for="player-type1" id="player-type1"> <input type="checkbox" value="type1" class="inline" name="player-type"/>Pubs</label>
+        <label for="player-type2" id="player-type2"> <input type="checkbox"value="type2" class="inline" name="player-type"/>Ranked</label>
+        <label for="player-type3" id="player-type3"> <input type="checkbox" value="type3" class="inline" name="player-type"/>Pro</label>
+
+      </fieldset>
+      <fieldset>
+        <label>Type of complaint
+        <select id="dropdown">
+          <option>Select</option>
+          <option>Unfair Games</option>
+          <option>Lack of Competitiveness</option>
+          <option>Site not working</option>
+          <option>Unable to Join Tourneys</option>
+          <option>Other</option>
+        </select>
+        </label>
+        <label id="complaint">Please give use a brief description on how we can do better.
+        <textarea name="complaint"> 
+        </textarea>
+        </label>  
+      </fieldset> 
+      <fieldset>
+        <p>Was this helpful?</p>
+        <label><input type="radio" name="group1" value="yes" class="inline">Yes</label>
+<label><input type="radio" name="group1" value="no" class="inline">No</label>
+      </fieldset>
+      <input type="submit" id="submit"/>
+</body>
+</html>  
